@@ -1,0 +1,66 @@
+button {
+    padding: 7px 15px;
+    font-size: 12px;
+    color: black;
+    border: none;
+    margin: 7px 5px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+  
+  .content {
+    flex: 1;
+    display: flex;
+  }
+  
+  .catImg img {
+    max-width: 700px;
+    max-height: 500px;
+    border-radius: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    height: calc(60vh);
+    margin: 0 10%;
+  }
+
+  .title {
+    padding: 50px 0px;
+    color: #675D50;
+  }
+
+button.startApp {
+    height: 60px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: #675D50;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+button.startApp:hover {
+    background-color: #ABC4AA;
+}
+.startBackground {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    border: 0px;
+    height: 25px;
+    outline: none;
+}
